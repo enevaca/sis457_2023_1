@@ -1,4 +1,32 @@
 ﻿using DemoConsolaAvanzado;
+using DemoLibreria;
+using static DemoConsolaAvanzado.Delegado;
+// Librerias
+Console.WriteLine("Suma: " + Calculadora.sumar(5, 6));
+Console.WriteLine("Resta: " + Calculadora.restar(5, 6));
+Console.WriteLine("Multiplicacion: " + Calculadora.multiplicar(5, 6));
+Console.WriteLine("Division: " + Calculadora.dividir(5, 6));
+
+// Delegados
+Reverse rev = Delegado.reverseString;
+Console.WriteLine(rev("una cadena"));
+
+Delegado.imp("Delegado Action"); // Action
+
+int mult = Delegado.multiplicacion(5, 6); // Func
+Console.WriteLine("Multiplicación: " + mult);
+
+bool esMayorEdad = Delegado.mayorEdad(15); // Predicate
+Console.WriteLine("Mayor de edad: " + esMayorEdad);
+
+// Genéricos
+Generico<string> cadena = new Generico<string>();
+cadena.campo = "Cadena";
+cadena.mensaje();
+
+Generico<Avion> avion2 = new Generico<Avion>();
+// avion2.mensaje();
+
 // Interfaces
 // var vehiculo = new IVehiculo(); // No se puede instanciar una interface
 var avion = new Avion();

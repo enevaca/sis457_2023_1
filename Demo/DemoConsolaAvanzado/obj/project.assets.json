@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DemoLibreria/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DemoLibreria.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemoLibreria.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DemoLibreria/1.0.0": {
+      "type": "project",
+      "path": "../DemoLibreria/DemoLibreria.csproj",
+      "msbuildProject": "../DemoLibreria/DemoLibreria.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DemoLibreria >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Noel\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\usfx\\SIS457\\sis457-2023-1\\Demo\\DemoLibreria\\DemoLibreria.csproj": {
+              "projectPath": "D:\\usfx\\SIS457\\sis457-2023-1\\Demo\\DemoLibreria\\DemoLibreria.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

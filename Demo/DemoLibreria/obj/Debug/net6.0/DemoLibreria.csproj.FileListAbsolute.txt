@@ -1,0 +1,12 @@
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\bin\Debug\net6.0\DemoLibreria.deps.json
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\bin\Debug\net6.0\DemoLibreria.dll
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\bin\Debug\net6.0\DemoLibreria.pdb
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\DemoLibreria.csproj.AssemblyReference.cache
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\DemoLibreria.GeneratedMSBuildEditorConfig.editorconfig
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\DemoLibreria.AssemblyInfoInputs.cache
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\DemoLibreria.AssemblyInfo.cs
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\DemoLibreria.csproj.CoreCompileInputs.cache
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\DemoLibreria.dll
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\refint\DemoLibreria.dll
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\DemoLibreria.pdb
+D:\usfx\SIS457\sis457-2023-1\Demo\DemoLibreria\obj\Debug\net6.0\ref\DemoLibreria.dll
