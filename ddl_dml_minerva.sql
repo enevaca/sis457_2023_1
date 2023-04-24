@@ -106,3 +106,13 @@ UPDATE Producto SET precioVenta=25.35 WHERE id=1;
 
 SELECT * FROM Producto;
 
+
+
+CREATE PROC paProductoListar @parametro VARCHAR(50)
+AS
+  SELECT id, codigo, descripcion, unidadMedida, saldo, precioVenta,
+		 usuarioRegistro, fechaRegistro
+  FROM Producto
+  WHERE codigo+descripcion+unidadMedida LIKE '%'+REPLACE(@parametro,' ','%')+'%';
+
+EXEC paProductoListar 'hoja carta'
