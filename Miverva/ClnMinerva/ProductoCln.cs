@@ -1,7 +1,8 @@
-﻿using CadMiverva;
+﻿using CadMinerva;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,6 +14,7 @@ namespace ClnMinerva
         {
             using (var contexto = new MinervaEntities())
             {
+                contexto.Database.Connection.Open();
                 contexto.Producto.Add(producto);
                 contexto.SaveChanges();
                 return producto.id;
@@ -23,6 +25,7 @@ namespace ClnMinerva
         {
             using (var contexto = new MinervaEntities())
             {
+                contexto.Database.Connection.Open();
                 var existente = contexto.Producto.Find(producto.id);
                 existente.codigo = producto.codigo;
                 existente.descripcion = producto.descripcion;
@@ -38,6 +41,7 @@ namespace ClnMinerva
         {
             using (var contexto = new MinervaEntities())
             {
+                contexto.Database.Connection.Open();
                 var existente = contexto.Producto.Find(id);
                 existente.registroActivo = false;
                 existente.usuarioRegistro = usuarioRegistro;
@@ -49,6 +53,7 @@ namespace ClnMinerva
         {
             using (var contexto = new MinervaEntities())
             {
+                contexto.Database.Connection.Open();
                 return contexto.Producto.Find(id);
             }
         }
@@ -57,6 +62,7 @@ namespace ClnMinerva
         {
             using (var contexto = new MinervaEntities())
             {
+                contexto.Database.Connection.Open();
                 return contexto.Producto.Where(x => x.registroActivo.Value).ToList();
             }
         }
@@ -65,6 +71,7 @@ namespace ClnMinerva
         {
             using (var contexto = new MinervaEntities())
             {
+                contexto.Database.Connection.Open();
                 return contexto.paProductoListar(parametro).ToList();
             }
         }

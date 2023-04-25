@@ -113,6 +113,7 @@ AS
   SELECT id, codigo, descripcion, unidadMedida, saldo, precioVenta,
 		 usuarioRegistro, fechaRegistro
   FROM Producto
-  WHERE codigo+descripcion+unidadMedida LIKE '%'+REPLACE(@parametro,' ','%')+'%';
+  WHERE registroActivo=1 AND 
+		codigo+descripcion+unidadMedida LIKE '%'+REPLACE(@parametro,' ','%')+'%'
 
 EXEC paProductoListar 'hoja carta'

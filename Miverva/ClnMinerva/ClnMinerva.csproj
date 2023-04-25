@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6830BDF1-672C-4A9D-9F96-F3F9EBE37D02}</ProjectGuid>
+    <ProjectGuid>{24504566-EF8F-4CAF-95F7-B6762859CB53}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ClnMinerva</RootNamespace>
@@ -58,9 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CadMiverva\CadMiverva.csproj">
-      <Project>{fa262afc-f7b2-428f-b720-caa43bd8fb48}</Project>
-      <Name>CadMiverva</Name>
+    <ProjectReference Include="..\CadMinerva\CadMinerva.csproj">
+      <Project>{aca1062c-ab1d-4a34-a31d-8c99d42dfad7}</Project>
+      <Name>CadMinerva</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
