@@ -86,32 +86,81 @@ namespace CpMinerva
             if(e.KeyChar == (char)Keys.Enter) listar();
         }
 
+        private bool validar()
+        {
+            bool esValido = true;
+            erpCodigo.SetError(txtCodigo, "");
+            erpDescripcion.SetError(txtDescripcion, "");
+            erpUnidadMedida.SetError(cbxUnidadMedida, "");
+            erpSaldo.SetError(nudSaldo, "");
+            erpPrecioVenta.SetError(nudPrecioVenta, "");
+
+            if (string.IsNullOrEmpty(txtCodigo.Text)) {
+                erpCodigo.SetError(txtCodigo, "El campo Código es obligatorio");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(txtDescripcion.Text))
+            {
+                erpDescripcion.SetError(txtDescripcion, "El campo Descripción es obligatorio");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(cbxUnidadMedida.Text))
+            {
+                erpUnidadMedida.SetError(cbxUnidadMedida, "El campo Unidad de Media es obligatorio");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(nudSaldo.Text))
+            {
+                erpSaldo.SetError(nudSaldo, "El campo Saldo es obligatorio");
+                esValido = false;
+            }
+            if (nudSaldo.Value < 0)
+            {
+                erpSaldo.SetError(nudSaldo, "El campo Saldo debe ser mayor a 0");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(nudPrecioVenta.Text))
+            {
+                erpPrecioVenta.SetError(nudPrecioVenta, "El campo Precio de Venta es obligatorio");
+                esValido = false;
+            }
+            if (nudPrecioVenta.Value < 0)
+            {
+                erpPrecioVenta.SetError(nudPrecioVenta, "El campo Precio de Venta debe ser mayor a 0");
+                esValido = false;
+            }
+            return esValido;
+        }
+
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            var producto = new Producto();
-            producto.codigo = txtCodigo.Text.Trim();
-            producto.descripcion = txtDescripcion.Text.Trim();
-            producto.unidadMedida = cbxUnidadMedida.Text;
-            producto.saldo = nudSaldo.Value;
-            producto.precioVenta = nudPrecioVenta.Value;
-            producto.usuarioRegistro = "sis457";
+            if (validar())
+            {
+                var producto = new Producto();
+                producto.codigo = txtCodigo.Text.Trim();
+                producto.descripcion = txtDescripcion.Text.Trim();
+                producto.unidadMedida = cbxUnidadMedida.Text;
+                producto.saldo = nudSaldo.Value;
+                producto.precioVenta = nudPrecioVenta.Value;
+                producto.usuarioRegistro = "sis457";
 
-            if (esNuevo)
-            {
-                producto.fechaRegistro = DateTime.Now;
-                producto.registroActivo = true;
-                ProductoCln.insertar(producto);
+                if (esNuevo)
+                {
+                    producto.fechaRegistro = DateTime.Now;
+                    producto.registroActivo = true;
+                    ProductoCln.insertar(producto);
+                }
+                else
+                {
+                    int index = dgvLista.CurrentCell.RowIndex;
+                    producto.id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
+                    ProductoCln.actualizar(producto);
+                }
+                listar();
+                btnCancelar.PerformClick();
+                MessageBox.Show("Producto guardado correctamente", "::: Minerva - Mensaje :::",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else 
-            {
-                int index = dgvLista.CurrentCell.RowIndex;
-                producto.id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
-                ProductoCln.actualizar(producto);
-            }
-            listar();
-            btnCancelar.PerformClick();
-            MessageBox.Show("Producto guardado correctamente", "::: Minerva - Mensaje :::",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void limpiar()
