@@ -13,28 +13,33 @@ namespace CadMinerva
 {
 
 using System;
-    using System.Collections.Generic;
     
-public partial class Usuario
+public partial class paUsuarioListar_Result
 {
-
-    public int id { get; set; }
 
     public int idEmpleado { get; set; }
 
-    public string usuario { get; set; }
+    public int idUsuario { get; set; }
 
-    public string clave { get; set; }
+    public string cedulaIdentidad { get; set; }
+
+    public string nombre { get; set; }
+
+    public string primerApellido { get; set; }
+
+    public string segundoApellido { get; set; }
+
+    public string direccion { get; set; }
+
+    public long celular { get; set; }
+
+    public string cargo { get; set; }
+
+    public string usuario { get; set; }
 
     public string usuarioRegistro { get; set; }
 
     public Nullable<System.DateTime> fechaRegistro { get; set; }
-
-    public Nullable<bool> registroActivo { get; set; }
-
-
-
-    public virtual Empleado Empleado { get; set; }
 
 }
 

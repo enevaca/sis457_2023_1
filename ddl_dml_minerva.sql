@@ -117,3 +117,15 @@ AS
 		codigo+descripcion+unidadMedida LIKE '%'+REPLACE(@parametro,' ','%')+'%'
 
 EXEC paProductoListar 'hoja carta'
+
+
+ALTER PROC paUsuarioListar @parametro VARCHAR(50)
+AS
+  SELECT u.idEmpleado, u.id as idUsuario, e.cedulaIdentidad, e.nombre,
+		 e.primerApellido, e.segundoApellido, e.direccion, e.celular,
+		 e.cargo, u.usuario, u.usuarioRegistro, u.fechaRegistro
+  FROM Empleado e
+  INNER JOIN Usuario u ON e.id=u.idEmpleado
+  WHERE e.registroActivo=1 AND u.registroActivo=1 AND
+		e.cedulaIdentidad+e.nombre+e.primerApellido+e.segundoApellido+u.usuario 
+			LIKE '%'+REPLACE(@parametro,' ','%')+'%'

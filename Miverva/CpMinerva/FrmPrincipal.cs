@@ -21,5 +21,10 @@ namespace CpMinerva
         {
             new FrmProducto().ShowDialog();
         }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            new FrmUsuario().ShowDialog(); 
+        }
     }
 }
