@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAutenticacion));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.txtClave = new System.Windows.Forms.TextBox();
@@ -37,7 +38,11 @@
             this.pctLogo = new System.Windows.Forms.PictureBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.erpUsuario = new System.Windows.Forms.ErrorProvider(this.components);
+            this.erpClave = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpClave)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -57,8 +62,10 @@
             // 
             this.txtClave.Location = new System.Drawing.Point(138, 105);
             this.txtClave.Name = "txtClave";
+            this.txtClave.PasswordChar = '*';
             this.txtClave.Size = new System.Drawing.Size(175, 24);
             this.txtClave.TabIndex = 7;
+            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
             // 
             // lblClave
             // 
@@ -99,7 +106,7 @@
             // 
             this.btnIngresar.Image = global::CpMinerva.Properties.Resources.login_ok;
             this.btnIngresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresar.Location = new System.Drawing.Point(213, 143);
+            this.btnIngresar.Location = new System.Drawing.Point(115, 143);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(102, 48);
             this.btnIngresar.TabIndex = 11;
@@ -112,7 +119,7 @@
             // 
             this.btnCerrar.Image = global::CpMinerva.Properties.Resources.close;
             this.btnCerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrar.Location = new System.Drawing.Point(117, 143);
+            this.btnCerrar.Location = new System.Drawing.Point(223, 143);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(90, 48);
             this.btnCerrar.TabIndex = 10;
@@ -120,6 +127,14 @@
             this.btnCerrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
+            // erpUsuario
+            // 
+            this.erpUsuario.ContainerControl = this;
+            // 
+            // erpClave
+            // 
+            this.erpClave.ContainerControl = this;
             // 
             // FrmAutenticacion
             // 
@@ -137,12 +152,14 @@
             this.Controls.Add(this.lblTitulo);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmAutenticacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "::: Minerva - Autenticación :::";
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpClave)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,5 +175,7 @@
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.PictureBox pctLogo;
+        private System.Windows.Forms.ErrorProvider erpUsuario;
+        private System.Windows.Forms.ErrorProvider erpClave;
     }
 }

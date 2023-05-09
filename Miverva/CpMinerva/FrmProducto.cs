@@ -142,7 +142,7 @@ namespace CpMinerva
                 producto.unidadMedida = cbxUnidadMedida.Text;
                 producto.saldo = nudSaldo.Value;
                 producto.precioVenta = nudPrecioVenta.Value;
-                producto.usuarioRegistro = "sis457";
+                producto.usuarioRegistro = Util.usuario.usuario;
 
                 if (esNuevo)
                 {
@@ -182,7 +182,7 @@ namespace CpMinerva
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (dialog == DialogResult.OK)
             {
-                ProductoCln.eliminar(id, "sis457");
+                ProductoCln.eliminar(id, Util.usuario.usuario);
                 listar();
                 MessageBox.Show($"Producto dado de baja correctamente", "::: Minerva - Mensaje :::",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);

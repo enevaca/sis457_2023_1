@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CadMinerva;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -12,6 +13,7 @@ namespace CpMinerva
 {
     public class Util
     {
+        public static Usuario usuario;
         static bool notPaste = false;
         public static string Encrypt(string clearText)
         {

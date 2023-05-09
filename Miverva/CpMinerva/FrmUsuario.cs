@@ -18,12 +18,25 @@ namespace CpMinerva
         public FrmUsuario()
         {
             InitializeComponent();
+            txtNombres.KeyPress += Util.onlyLetters;
+            txtPrimerApellido.KeyPress += Util.onlyLetters;
+            txtSegundoApellido.KeyPress += Util.onlyLetters;
+            txtCelular.KeyPress += Util.onlyNumbers;
         }
 
         private void FrmUsuario_Load(object sender, EventArgs e)
         {
             Size = new Size(981, 439);
+            cargarCargos();
             listar();
+        }
+
+        private void cargarCargos()
+        {
+            cbxCargo.DataSource = CargoCln.listar();
+            cbxCargo.DisplayMember = "descripcion";
+            cbxCargo.ValueMember = "descripcion";
+            //cbxCargo.ValueMember = "id";
         }
 
         private void listar()
@@ -159,7 +172,7 @@ namespace CpMinerva
                 empleado.direccion = txtDireccion.Text.Trim();
                 empleado.celular = Convert.ToInt64(txtCelular.Text);
                 empleado.cargo = cbxCargo.Text;
-                empleado.usuarioRegistro = "sis457";
+                empleado.usuarioRegistro = Util.usuario.usuario;
 
                 var empleadoExistente = EmpleadoCln.validar(empleado.cedulaIdentidad);
                 if (empleadoExistente != null)
@@ -178,7 +191,7 @@ namespace CpMinerva
                 usuario.idEmpleado = empleado.id;
                 usuario.usuario = txtUsuario.Text.Trim();
                 usuario.clave = Util.Encrypt("hola123");
-                usuario.usuarioRegistro = "sis457";
+                usuario.usuarioRegistro = Util.usuario.usuario;
 
                 var usuarioExistente = UsuarioCln.validar(empleado.id);
                 if (usuarioExistente != null)
@@ -223,7 +236,7 @@ namespace CpMinerva
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (dialog == DialogResult.OK)
             {
-                UsuarioCln.eliminar(id, "sis457");
+                UsuarioCln.eliminar(id, Util.usuario.usuario);
                 listar();
                 MessageBox.Show($"Usuario dado de baja correctamente", "::: Minerva - Mensaje :::",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -129,3 +129,15 @@ AS
   WHERE e.registroActivo=1 AND u.registroActivo=1 AND
 		e.cedulaIdentidad+e.nombre+e.primerApellido+e.segundoApellido+u.usuario 
 			LIKE '%'+REPLACE(@parametro,' ','%')+'%'
+			
+
+
+CREATE TABLE Cargo (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  descripcion VARCHAR(50) NOT NULL,
+);
+
+
+INSERT INTO Cargo VALUES('Administrador'),('Cajero'),('Contador');
+INSERT INTO Cargo VALUES('Secretaria');
+SELECT * FROM Cargo;

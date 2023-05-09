@@ -15,6 +15,7 @@
         <AssociationConnector Association="MinervaModel.fk_CompraDetalle_Compra" ManuallyRouted="false" />
         <AssociationConnector Association="MinervaModel.fk_CompraDetalle_Producto" ManuallyRouted="false" />
         <AssociationConnector Association="MinervaModel.fk_Usuario_Empleado" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MinervaModel.Cargo" Width="1.5" PointX="7.625" PointY="4.25" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

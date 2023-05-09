@@ -167,6 +167,7 @@
     <FunctionImport Name="paUsuarioListar" ReturnType="Collection(MinervaModel.paUsuarioListar_Result)">
       <Parameter Name="parametro" Mode="In" Type="String" />
     </FunctionImport>
+    <EntitySet Name="Cargo" EntityType="MinervaModel.Cargo" />
   </EntityContainer>
   <ComplexType Name="paProductoListar_Result">
     <Property Type="Int32" Name="id" Nullable="false" />
@@ -192,4 +193,11 @@
     <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
     <Property Type="DateTime" Name="fechaRegistro" Nullable="true" Precision="23" />
   </ComplexType>
+  <EntityType Name="Cargo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>
