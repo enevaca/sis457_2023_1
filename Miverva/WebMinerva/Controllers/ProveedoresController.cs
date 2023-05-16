@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,89 +9,87 @@ using WebMinerva.Models;
 
 namespace WebMinerva.Controllers
 {
-    [Authorize]
-    public class ProductosController : Controller
+    public class ProveedoresController : Controller
     {
         private readonly MinervaContext _context;
 
-        public ProductosController(MinervaContext context)
+        public ProveedoresController(MinervaContext context)
         {
             _context = context;
         }
 
-        // GET: Productos
+        // GET: Proveedores
         public async Task<IActionResult> Index()
         {
-              return _context.Productos != null ? 
-                          View(await _context.Productos.Where(x=>x.RegistroActivo.Value).ToListAsync()) :
-                          Problem("Entity set 'MinervaContext.Productos'  is null.");
+              return _context.Proveedors != null ? 
+                          View(await _context.Proveedors.ToListAsync()) :
+                          Problem("Entity set 'MinervaContext.Proveedors'  is null.");
         }
 
-        // GET: Productos/Details/5
+        // GET: Proveedores/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Productos == null)
+            if (id == null || _context.Proveedors == null)
             {
                 return NotFound();
             }
 
-            var producto = await _context.Productos
+            var proveedor = await _context.Proveedors
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
+            if (proveedor == null)
             {
                 return NotFound();
             }
 
-            return View(producto);
+            return View(proveedor);
         }
 
-        // GET: Productos/Create
+        // GET: Proveedores/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Productos/Create
+        // POST: Proveedores/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Codigo,Descripcion,UnidadMedida,Saldo,PrecioVenta,UsuarioRegistro,FechaRegistro,RegistroActivo")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,Nit,RazonSocial,Direccion,Telefono,Representante,UsuarioRegistro,FechaRegistro,RegistroActivo")] Proveedor proveedor)
         {
             if (ModelState.IsValid)
             {
-                producto.UsuarioRegistro = User.Identity?.Name;
-                _context.Add(producto);
+                _context.Add(proveedor);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(producto);
+            return View(proveedor);
         }
 
-        // GET: Productos/Edit/5
+        // GET: Proveedores/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Productos == null)
+            if (id == null || _context.Proveedors == null)
             {
                 return NotFound();
             }
 
-            var producto = await _context.Productos.FindAsync(id);
-            if (producto == null)
+            var proveedor = await _context.Proveedors.FindAsync(id);
+            if (proveedor == null)
             {
                 return NotFound();
             }
-            return View(producto);
+            return View(proveedor);
         }
 
-        // POST: Productos/Edit/5
+        // POST: Proveedores/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Codigo,Descripcion,UnidadMedida,Saldo,PrecioVenta,UsuarioRegistro,FechaRegistro,RegistroActivo")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nit,RazonSocial,Direccion,Telefono,Representante,UsuarioRegistro,FechaRegistro,RegistroActivo")] Proveedor proveedor)
         {
-            if (id != producto.Id)
+            if (id != proveedor.Id)
             {
                 return NotFound();
             }
@@ -101,13 +98,12 @@ namespace WebMinerva.Controllers
             {
                 try
                 {
-                    producto.UsuarioRegistro = User.Identity?.Name;
-                    _context.Update(producto);
+                    _context.Update(proveedor);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductoExists(producto.Id))
+                    if (!ProveedorExists(proveedor.Id))
                     {
                         return NotFound();
                     }
@@ -118,52 +114,49 @@ namespace WebMinerva.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(producto);
+            return View(proveedor);
         }
 
-        // GET: Productos/Delete/5
+        // GET: Proveedores/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Productos == null)
+            if (id == null || _context.Proveedors == null)
             {
                 return NotFound();
             }
 
-            var producto = await _context.Productos
+            var proveedor = await _context.Proveedors
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
+            if (proveedor == null)
             {
                 return NotFound();
             }
 
-            return View(producto);
+            return View(proveedor);
         }
 
-        // POST: Productos/Delete/5
+        // POST: Proveedores/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Productos == null)
+            if (_context.Proveedors == null)
             {
-                return Problem("Entity set 'MinervaContext.Productos'  is null.");
+                return Problem("Entity set 'MinervaContext.Proveedors'  is null.");
             }
-            var producto = await _context.Productos.FindAsync(id);
-            if (producto != null)
+            var proveedor = await _context.Proveedors.FindAsync(id);
+            if (proveedor != null)
             {
-                //_context.Productos.Remove(producto);
-                producto.RegistroActivo = false;
-                producto.UsuarioRegistro = User.Identity?.Name;
-                _context.Update(producto);
+                _context.Proveedors.Remove(proveedor);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductoExists(int id)
+        private bool ProveedorExists(int id)
         {
-          return (_context.Productos?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Proveedors?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
