@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0hFomNU8y/ciRcdh7Xk6H3MN+kV2OaPXVRajDJFOKr8=",
+  "Hash": "VpbriIavyNvMpsW48UnklaA5zDuso8LH0ilEau2E9qk=",
   "Source": "WebMinerva",
   "BasePath": "_content/WebMinerva",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebMinerva.bundle.scp.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\css\\site.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\css\\style.css",
+      "SourceId": "WebMinerva",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
+      "BasePath": "_content/WebMinerva",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\favicon.ico",
@@ -85,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\js\\site.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\about.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "js/site.js",
+      "RelativePath": "img/about.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\img\\about.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\carousel-1.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "RelativePath": "img/carousel-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\img\\carousel-1.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\carousel-2.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "RelativePath": "img/carousel-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\carousel-2.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-1.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "RelativePath": "img/icon/icon-1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-1.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-10.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "RelativePath": "img/icon/icon-10.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-10.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-2.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "RelativePath": "img/icon/icon-2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-2.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-3.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "RelativePath": "img/icon/icon-3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-3.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-4.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "RelativePath": "img/icon/icon-4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-4.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-5.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "RelativePath": "img/icon/icon-5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-5.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-6.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "RelativePath": "img/icon/icon-6.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-6.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-7.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "RelativePath": "img/icon/icon-7.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-7.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-8.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "RelativePath": "img/icon/icon-8.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-8.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-9.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "RelativePath": "img/icon/icon-9.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\icon\\icon-9.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-1.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "RelativePath": "img/project-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\img\\project-1.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-2.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "RelativePath": "img/project-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\project-2.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-3.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "RelativePath": "img/project-3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\img\\project-3.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-4.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "RelativePath": "img/project-4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\project-4.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-1.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "RelativePath": "img/team-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\img\\team-1.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-2.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "RelativePath": "img/team-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\team-2.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-3.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "RelativePath": "img/team-3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\img\\team-3.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-4.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "RelativePath": "img/team-4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\team-4.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-1.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "RelativePath": "img/testimonial-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-1.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-2.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "RelativePath": "img/testimonial-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,15 +490,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-2.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-3.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "RelativePath": "img/testimonial-3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -490,15 +507,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-3.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-4.jpg",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "RelativePath": "img/testimonial-4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -507,15 +524,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\img\\testimonial-4.jpg"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\js\\main.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "RelativePath": "js/main.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -524,15 +541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\animate\\animate.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "RelativePath": "lib/animate/animate.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,15 +558,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\animate\\animate.min.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "RelativePath": "lib/animate/animate.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,15 +575,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.min.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "RelativePath": "lib/easing/easing.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -575,15 +592,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "RelativePath": "lib/easing/easing.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -592,15 +609,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\css\\lightbox.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "RelativePath": "lib/lightbox/css/lightbox.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -609,15 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\css\\lightbox.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "RelativePath": "lib/lightbox/css/lightbox.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,15 +643,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\css\\lightbox.min.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\close.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "RelativePath": "lib/lightbox/images/close.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -643,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\images\\close.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\loading.gif",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "RelativePath": "lib/lightbox/images/loading.gif",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +677,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\images\\loading.gif"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\next.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "RelativePath": "lib/lightbox/images/next.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -677,15 +694,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\images\\next.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\prev.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "RelativePath": "lib/lightbox/images/prev.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -694,15 +711,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\images\\prev.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\js\\lightbox.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "RelativePath": "lib/lightbox/js/lightbox.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -711,15 +728,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\js\\lightbox.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
+      "RelativePath": "lib/lightbox/js/lightbox.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,15 +745,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\js\\lightbox.min.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\links.php",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "RelativePath": "lib/lightbox/links.php",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -745,15 +762,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\lightbox\\links.php"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "RelativePath": "lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -762,15 +779,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "RelativePath": "lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -779,15 +796,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
+      "RelativePath": "lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -796,15 +813,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "RelativePath": "lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -813,15 +830,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "RelativePath": "lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,15 +847,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "RelativePath": "lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -847,15 +864,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/bootstrap/LICENSE",
+      "RelativePath": "lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -864,15 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +898,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/owlcarousel/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,15 +915,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,15 +932,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery/LICENSE.txt",
+      "RelativePath": "lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -932,15 +949,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\waypoints\\links.php",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "RelativePath": "lib/waypoints/links.php",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -949,15 +966,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\waypoints\\links.php"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "RelativePath": "lib/waypoints/waypoints.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\wow\\wow.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "RelativePath": "lib/wow/wow.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +1000,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.js"
     },
     {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\wow\\wow.min.js",
       "SourceId": "WebMinerva",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
       "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "RelativePath": "lib/wow/wow.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,75 +1017,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "WebMinerva",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
-      "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "WebMinerva",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
-      "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "WebMinerva",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
-      "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Identity": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "WebMinerva",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\",
-      "BasePath": "_content/WebMinerva",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.min.js"
     }
   ]
 }

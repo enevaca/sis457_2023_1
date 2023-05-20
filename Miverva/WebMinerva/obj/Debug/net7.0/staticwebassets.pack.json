@@ -5,244 +5,232 @@
       "PackagePath": "staticwebassets\\WebMinerva.bundle.scp.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-1.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-1.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-10.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-10.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-2.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-2.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-3.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-3.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-4.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-4.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-5.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-5.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-6.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-6.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-7.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-7.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-8.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-8.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\icon\\icon-9.png",
+      "PackagePath": "staticwebassets\\img\\icon\\icon-9.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-1.jpg",
+      "PackagePath": "staticwebassets\\img\\project-1.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-2.jpg",
+      "PackagePath": "staticwebassets\\img\\project-2.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-3.jpg",
+      "PackagePath": "staticwebassets\\img\\project-3.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\project-4.jpg",
+      "PackagePath": "staticwebassets\\img\\project-4.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\lightbox\\links.php",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\links.php"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
     },
     {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "D:\\usfx\\SIS457\\sis457-2023-1\\Miverva\\WebMinerva\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebMinerva.Microsoft.AspNetCore.StaticWebAssets.props",
