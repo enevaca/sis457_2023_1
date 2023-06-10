@@ -35,6 +35,8 @@ public partial class paUsuarioListar_Result
 
     public string cargo { get; set; }
 
+    public string fechaNacimiento { get; set; }
+
     public string usuario { get; set; }
 
     public string usuarioRegistro { get; set; }

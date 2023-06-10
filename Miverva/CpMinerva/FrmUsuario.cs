@@ -29,6 +29,8 @@ namespace CpMinerva
             Size = new Size(981, 439);
             cargarCargos();
             listar();
+            dtpFechaNacimiento.MinDate = DateTime.Now.AddYears(-65);
+            dtpFechaNacimiento.MaxDate = DateTime.Now.AddYears(-18);
         }
 
         private void cargarCargos()
@@ -52,6 +54,7 @@ namespace CpMinerva
             dgvLista.Columns["direccion"].HeaderText = "Dirección";
             dgvLista.Columns["celular"].HeaderText = "Celular";
             dgvLista.Columns["cargo"].HeaderText = "Cargo";
+            dgvLista.Columns["fechaNacimiento"].HeaderText = "Fecha de Nacimiento";
             dgvLista.Columns["usuario"].HeaderText = "Usuario";
             dgvLista.Columns["usuarioRegistro"].HeaderText = "Usuario Registro";
             dgvLista.Columns["fechaRegistro"].HeaderText = "Fecha Registro";
@@ -82,6 +85,7 @@ namespace CpMinerva
             txtDireccion.Text = empleado.direccion;
             txtCelular.Text = empleado.celular.ToString();
             cbxCargo.Text = empleado.cargo;
+            dtpFechaNacimiento.Value = empleado.fechaNacimiento.Value;
 
             int idUsuario = Convert.ToInt32(dgvLista.Rows[index].Cells["idUsuario"].Value);
             var usuario = UsuarioCln.get(idUsuario);
@@ -172,6 +176,7 @@ namespace CpMinerva
                 empleado.direccion = txtDireccion.Text.Trim();
                 empleado.celular = Convert.ToInt64(txtCelular.Text);
                 empleado.cargo = cbxCargo.Text;
+                empleado.fechaNacimiento = dtpFechaNacimiento.Value;
                 empleado.usuarioRegistro = Util.usuario.usuario;
 
                 var empleadoExistente = EmpleadoCln.validar(empleado.cedulaIdentidad);
@@ -224,6 +229,7 @@ namespace CpMinerva
             txtCelular.Text = string.Empty;
             cbxCargo.SelectedIndex = -1;
             txtUsuario.Text = string.Empty;
+            dtpFechaNacimiento.Value = DateTime.Now.AddYears(-18);
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

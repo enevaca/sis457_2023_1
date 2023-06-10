@@ -39,8 +39,6 @@ public partial class MinervaEntities : DbContext
 
     public virtual DbSet<CompraDetalle> CompraDetalle { get; set; }
 
-    public virtual DbSet<Empleado> Empleado { get; set; }
-
     public virtual DbSet<Producto> Producto { get; set; }
 
     public virtual DbSet<Proveedor> Proveedor { get; set; }
@@ -48,6 +46,8 @@ public partial class MinervaEntities : DbContext
     public virtual DbSet<Usuario> Usuario { get; set; }
 
     public virtual DbSet<Cargo> Cargo { get; set; }
+
+    public virtual DbSet<Empleado> Empleado { get; set; }
 
 
     public virtual ObjectResult<paProductoListar_Result> paProductoListar(string parametro)

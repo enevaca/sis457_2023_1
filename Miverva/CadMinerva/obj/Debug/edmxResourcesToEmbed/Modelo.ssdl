@@ -45,6 +45,7 @@
     <Property Name="direccion" Type="varchar" MaxLength="250" Nullable="false" />
     <Property Name="celular" Type="bigint" Nullable="false" />
     <Property Name="cargo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fechaNacimiento" Type="date" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
     <Property Name="fechaRegistro" Type="datetime" />
     <Property Name="registroActivo" Type="bit" />

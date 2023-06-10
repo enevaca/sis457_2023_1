@@ -29,23 +29,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Empleado">
-      <EntityTypeMapping TypeName="MinervaModel.Empleado">
-        <MappingFragment StoreEntitySet="Empleado">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="cedulaIdentidad" ColumnName="cedulaIdentidad" />
-          <ScalarProperty Name="nombre" ColumnName="nombre" />
-          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
-          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
-          <ScalarProperty Name="direccion" ColumnName="direccion" />
-          <ScalarProperty Name="celular" ColumnName="celular" />
-          <ScalarProperty Name="cargo" ColumnName="cargo" />
-          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
-          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
-          <ScalarProperty Name="registroActivo" ColumnName="registroActivo" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Producto">
       <EntityTypeMapping TypeName="MinervaModel.Producto">
         <MappingFragment StoreEntitySet="Producto">
@@ -103,6 +86,32 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <EntitySetMapping Name="Cargo">
+      <EntityTypeMapping TypeName="MinervaModel.Cargo">
+        <MappingFragment StoreEntitySet="Cargo">
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleado">
+      <EntityTypeMapping TypeName="MinervaModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="registroActivo" ColumnName="registroActivo" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="cargo" ColumnName="cargo" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="cedulaIdentidad" ColumnName="cedulaIdentidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <FunctionImportMapping FunctionImportName="paUsuarioListar" FunctionName="MinervaModel.Store.paUsuarioListar">
       <ResultMapping>
         <ComplexTypeMapping TypeName="MinervaModel.paUsuarioListar_Result">
@@ -115,19 +124,12 @@
           <ScalarProperty Name="direccion" ColumnName="direccion" />
           <ScalarProperty Name="celular" ColumnName="celular" />
           <ScalarProperty Name="cargo" ColumnName="cargo" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
           <ScalarProperty Name="usuario" ColumnName="usuario" />
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
           <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <EntitySetMapping Name="Cargo">
-      <EntityTypeMapping TypeName="MinervaModel.Cargo">
-        <MappingFragment StoreEntitySet="Cargo">
-          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
-          <ScalarProperty Name="id" ColumnName="id" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

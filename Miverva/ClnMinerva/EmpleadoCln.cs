@@ -31,6 +31,7 @@ namespace ClnMinerva
                 existente.direccion = empleado.direccion;
                 existente.celular = empleado.celular;
                 existente.cargo = empleado.cargo;
+                existente.fechaNacimiento = empleado.fechaNacimiento;
                 existente.usuarioRegistro = empleado.usuarioRegistro;
                 return contexto.SaveChanges();
             }

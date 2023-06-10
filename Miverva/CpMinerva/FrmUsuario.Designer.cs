@@ -67,6 +67,7 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.erpCargo = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpUsuario = new System.Windows.Forms.ErrorProvider(this.components);
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.erpCedulaIdentidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpNombres)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpApellidos)).BeginInit();
@@ -148,7 +149,7 @@
             // 
             this.txtNombres.Location = new System.Drawing.Point(178, 64);
             this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(191, 24);
+            this.txtNombres.Size = new System.Drawing.Size(191, 29);
             this.txtNombres.TabIndex = 2;
             // 
             // btnEditar
@@ -187,15 +188,16 @@
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.Location = new System.Drawing.Point(20, 67);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(74, 18);
+            this.lblDescripcion.Size = new System.Drawing.Size(93, 24);
             this.lblDescripcion.TabIndex = 2;
             this.lblDescripcion.Text = "Nombres:";
             // 
             // txtCedulaIdentidad
             // 
             this.txtCedulaIdentidad.Location = new System.Drawing.Point(178, 34);
+            this.txtCedulaIdentidad.MaxLength = 15;
             this.txtCedulaIdentidad.Name = "txtCedulaIdentidad";
-            this.txtCedulaIdentidad.Size = new System.Drawing.Size(191, 24);
+            this.txtCedulaIdentidad.Size = new System.Drawing.Size(191, 29);
             this.txtCedulaIdentidad.TabIndex = 1;
             // 
             // lblCodigo
@@ -203,7 +205,7 @@
             this.lblCodigo.AutoSize = true;
             this.lblCodigo.Location = new System.Drawing.Point(20, 37);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(140, 18);
+            this.lblCodigo.Size = new System.Drawing.Size(184, 24);
             this.lblCodigo.TabIndex = 0;
             this.lblCodigo.Text = "Cédula de Identidad:";
             // 
@@ -225,6 +227,7 @@
             this.gbxDatos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbxDatos.Controls.Add(this.dtpFechaNacimiento);
             this.gbxDatos.Controls.Add(this.cbxCargo);
             this.gbxDatos.Controls.Add(this.txtUsuario);
             this.gbxDatos.Controls.Add(this.label3);
@@ -256,14 +259,14 @@
             this.cbxCargo.FormattingEnabled = true;
             this.cbxCargo.Location = new System.Drawing.Point(476, 92);
             this.cbxCargo.Name = "cbxCargo";
-            this.cbxCargo.Size = new System.Drawing.Size(229, 26);
+            this.cbxCargo.Size = new System.Drawing.Size(229, 32);
             this.cbxCargo.TabIndex = 7;
             // 
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(476, 121);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(229, 24);
+            this.txtUsuario.Size = new System.Drawing.Size(229, 29);
             this.txtUsuario.TabIndex = 8;
             // 
             // label3
@@ -271,7 +274,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(384, 125);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 18);
+            this.label3.Size = new System.Drawing.Size(79, 24);
             this.label3.TabIndex = 22;
             this.label3.Text = "Usuario:";
             // 
@@ -280,7 +283,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(384, 97);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 18);
+            this.label4.Size = new System.Drawing.Size(66, 24);
             this.label4.TabIndex = 20;
             this.label4.Text = "Cargo:";
             // 
@@ -288,7 +291,7 @@
             // 
             this.txtCelular.Location = new System.Drawing.Point(476, 63);
             this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(229, 24);
+            this.txtCelular.Size = new System.Drawing.Size(229, 29);
             this.txtCelular.TabIndex = 6;
             // 
             // label5
@@ -296,7 +299,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(384, 67);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 18);
+            this.label5.Size = new System.Drawing.Size(74, 24);
             this.label5.TabIndex = 18;
             this.label5.Text = "Celular:";
             // 
@@ -304,7 +307,7 @@
             // 
             this.txtDireccion.Location = new System.Drawing.Point(476, 33);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(229, 24);
+            this.txtDireccion.Size = new System.Drawing.Size(229, 29);
             this.txtDireccion.TabIndex = 5;
             // 
             // label6
@@ -312,7 +315,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(384, 37);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 18);
+            this.label6.Size = new System.Drawing.Size(95, 24);
             this.label6.TabIndex = 16;
             this.label6.Text = "Dirección:";
             // 
@@ -320,7 +323,7 @@
             // 
             this.txtSegundoApellido.Location = new System.Drawing.Point(178, 122);
             this.txtSegundoApellido.Name = "txtSegundoApellido";
-            this.txtSegundoApellido.Size = new System.Drawing.Size(191, 24);
+            this.txtSegundoApellido.Size = new System.Drawing.Size(191, 29);
             this.txtSegundoApellido.TabIndex = 4;
             // 
             // label2
@@ -328,7 +331,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(20, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 18);
+            this.label2.Size = new System.Drawing.Size(167, 24);
             this.label2.TabIndex = 14;
             this.label2.Text = "Segundo Apellido:";
             // 
@@ -336,7 +339,7 @@
             // 
             this.txtPrimerApellido.Location = new System.Drawing.Point(178, 94);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
-            this.txtPrimerApellido.Size = new System.Drawing.Size(191, 24);
+            this.txtPrimerApellido.Size = new System.Drawing.Size(191, 29);
             this.txtPrimerApellido.TabIndex = 3;
             // 
             // label1
@@ -344,7 +347,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(20, 97);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 18);
+            this.label1.Size = new System.Drawing.Size(144, 24);
             this.label1.TabIndex = 12;
             this.label1.Text = "Primer Apellido:";
             // 
@@ -367,7 +370,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtParametro.Location = new System.Drawing.Point(301, 61);
             this.txtParametro.Name = "txtParametro";
-            this.txtParametro.Size = new System.Drawing.Size(556, 24);
+            this.txtParametro.Size = new System.Drawing.Size(556, 29);
             this.txtParametro.TabIndex = 10;
             this.txtParametro.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtParametro_KeyPress);
             // 
@@ -376,7 +379,7 @@
             this.lblParametro.AutoSize = true;
             this.lblParametro.Location = new System.Drawing.Point(14, 64);
             this.lblParametro.Name = "lblParametro";
-            this.lblParametro.Size = new System.Drawing.Size(281, 18);
+            this.lblParametro.Size = new System.Drawing.Size(351, 24);
             this.lblParametro.TabIndex = 9;
             this.lblParametro.Text = "Buscar por Usuario o Nombre Completo:";
             // 
@@ -435,9 +438,16 @@
             // 
             this.erpUsuario.ContainerControl = this;
             // 
+            // dtpFechaNacimiento
+            // 
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(734, 34);
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(200, 29);
+            this.dtpFechaNacimiento.TabIndex = 23;
+            // 
             // FrmUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(965, 559);
@@ -512,5 +522,6 @@
         private System.Windows.Forms.ErrorProvider erpCargo;
         private System.Windows.Forms.ErrorProvider erpUsuario;
         private System.Windows.Forms.ComboBox cbxCargo;
+        private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
     }
 }

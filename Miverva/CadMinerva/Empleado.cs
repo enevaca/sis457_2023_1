@@ -43,6 +43,8 @@ public partial class Empleado
 
     public string cargo { get; set; }
 
+    public Nullable<System.DateTime> fechaNacimiento { get; set; }
+
     public string usuarioRegistro { get; set; }
 
     public Nullable<System.DateTime> fechaRegistro { get; set; }

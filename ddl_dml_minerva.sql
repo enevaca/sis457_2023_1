@@ -47,7 +47,8 @@ CREATE TABLE Empleado(
 	segundoApellido VARCHAR(30) NOT NULL,
 	direccion VARCHAR(250) NOT NULL,
 	celular BIGINT NOT NULL,
-	cargo VARCHAR(50) NOT NULL
+	cargo VARCHAR(50) NOT NULL,
+	fechaNacimiento DATE NULL
 );
 CREATE TABLE Usuario(
 	id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
@@ -119,11 +120,13 @@ AS
 EXEC paProductoListar 'hoja carta'
 
 
-ALTER PROC paUsuarioListar @parametro VARCHAR(50)
+CREATE PROC paUsuarioListar @parametro VARCHAR(50)
 AS
   SELECT u.idEmpleado, u.id as idUsuario, e.cedulaIdentidad, e.nombre,
 		 e.primerApellido, e.segundoApellido, e.direccion, e.celular,
-		 e.cargo, u.usuario, u.usuarioRegistro, u.fechaRegistro
+		 e.cargo, 
+		 ISNULL(CONVERT(VARCHAR(10), e.fechaNacimiento, 103), '--') as fechaNacimiento, 
+		 u.usuario, u.usuarioRegistro, u.fechaRegistro
   FROM Empleado e
   INNER JOIN Usuario u ON e.id=u.idEmpleado
   WHERE e.registroActivo=1 AND u.registroActivo=1 AND
